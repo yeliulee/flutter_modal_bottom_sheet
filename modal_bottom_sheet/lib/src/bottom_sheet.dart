@@ -491,6 +491,7 @@ PointerDeviceKind defaultPointerDeviceKind(BuildContext context) {
   switch (platform) {
     case TargetPlatform.iOS:
     case TargetPlatform.android:
+    case TargetPlatform.ohos:
       return PointerDeviceKind.touch;
     case TargetPlatform.linux:
     case TargetPlatform.macOS:
